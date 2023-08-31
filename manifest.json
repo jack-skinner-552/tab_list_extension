@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Tab List Extension",
+    "version": "1.0",
+    "description": "A Chrome Extension to list open tabs with URLs and tab IDs.",
+    "permissions": ["activeTab", "favicon", "storage", "tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "web_accessible_resources": [
+      {
+        "resources": ["_favicon/*"],
+        "matches": ["<all_urls>"],
+        "extension_ids": ["*"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "icon.png"
+      }
+    },
+    "icons": {
+      "128": "icon.png"
+    }
+  }
+  
