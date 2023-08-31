@@ -12,6 +12,7 @@ Helpful for developers troubleshooting Chrome Extensions that use `chrome.tabs`
 * Organize tabs by their associated window IDs.
 * Update the tab list in real-time when tabs are closed, opened, or updated.
 * Utilizes Chrome's storage API to store and retrieve tab information.
+* Any updates made to any tabs are logged in DevTools console to assist in troubleshooting.
 
 ## Installation
 1. Download the extension's code from the repository or zip file.
