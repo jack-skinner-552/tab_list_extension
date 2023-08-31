@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Open Tabs</title>
+  <style>
+    body {
+      width: 500px; /* Adjust the width as needed */
+      overflow-x: auto;
+      overflow-y: auto;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill);
+      gap: 10px;
+    }
+    
+    li {
+      border: 1px solid #ccc;
+      padding: 10px;
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+  <h2>Open Tabs</h2>
+  <ul id="tabList"></ul>
+  <script src="popup.js"></script>
+  <sub>Extension icon by <a href="https://icons8.com/" title="icons8">icons8</sub>
+</body>
+</html>
