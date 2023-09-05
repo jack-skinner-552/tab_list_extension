@@ -4,13 +4,14 @@ The Tab List Chrome Extension is a simple utility extension that allows users to
 
 Helpful for developers troubleshooting Chrome Extensions that use `chrome.tabs`
 
-![Extension Screenshot](https://i.imgur.com/Znu0R9M.png)
+![Extension Screenshot](https://i.imgur.com/Ynn1VLH.png)
 
 ## Features
 * List open tabs in a user-friendly format.
 * Display tab favicons for better visual identification.
 * Organize tabs by their associated window IDs.
 * Update the tab list in real-time when tabs are closed, opened, or updated.
+* The active tab in all windows is highlighted.
 * Utilizes Chrome's storage API to store and retrieve tab information.
 * Any updates made to any tabs are logged in DevTools console to assist in troubleshooting.
 
