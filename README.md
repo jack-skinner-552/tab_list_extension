@@ -1,6 +1,6 @@
 # Tab List Chrome Extension
 
-The Tab List Chrome Extension is a simple utility extension that allows users to list open tabs along with their URLs, tab IDs, and window IDs. The extension provides an organized view of open tabs within your active Chrome window, making it easier to manage and keep track of your browsing sessions.
+The Tab List Chrome Extension is a simple utility extension that allows users to list open tabs along with their URLs, tab IDs, and window IDs. The extension provides an organized view of open tabs within your active Chrome window, making it easier to manage and keep track of your browsing sessions. The extension also logs any changes made to these tabs, such as updates, creations, removals in the DevTools console.
 
 Helpful for developers troubleshooting Chrome Extensions that use `chrome.tabs`
 
@@ -12,6 +12,7 @@ Helpful for developers troubleshooting Chrome Extensions that use `chrome.tabs`
 * Organize tabs by their associated window IDs.
 * Update the tab list in real-time when tabs are closed, opened, or updated.
 * Utilizes Chrome's storage API to store and retrieve tab information.
+* Any updates made to any tabs are logged in DevTools console to assist in troubleshooting.
 
 ## Installation
 1. Download the extension's code from the repository or zip file.
