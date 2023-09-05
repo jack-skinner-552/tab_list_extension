@@ -36,6 +36,11 @@ document.addEventListener("DOMContentLoaded", function () {
         img.src = faviconURL(tab.url);
         li.appendChild(img);
         li.appendChild(document.createTextNode(`Tab ID: ${tab.id}, URL: ${tab.url}`));
+
+        if (tab.isActiveTab) { // check if the tab is active
+          li.style.backgroundColor = "yellow"; // set background color to highlight the active tab
+        }
+
         windowElement.appendChild(li);
       });
 

@@ -1,5 +1,6 @@
 // background.js
 
+
 console.log("Background script loaded");
 
 // Log when a tab is activated
@@ -59,7 +60,8 @@ function updateTabList() {
       return {
         windowId: tab.windowId,
         id: tab.id,
-        url: tab.url
+        url: tab.url,
+        isActiveTab: tab.active
       };
     });
 
